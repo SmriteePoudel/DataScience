@@ -1,0 +1,57 @@
+MACHINE LEARNING
+
+1. Supervised 
+    a. Regression 
+    b. Classification
+        i. Support Vector Classifier
+        ii. XGBoost Classifier
+        iii. KNN(K Nearest Neighbors)
+        iv. Decision Tree
+
+
+    -> Binary Classification(Yes/No, 0/1, T/F)-> Disease Predicyion System
+    -> Multi-Class Classification (0/1/2/3, A/B/C/D)-> Grade Prediction System
+    
+2. Unsupervised 
+   -> Unlabelled data 
+   ->   Our data only have features
+
+   a. Clustering(Segmentation)
+    i.  KMeans
+    ii. Agglomerative Clustering
+    iii.Hierarchical Clustering
+    --------------------------------
+    Dimension Reduction Algorithm
+    -------------------------------
+    iv. PCA(Principle Componenet Analysis)
+3. Reinforcement LEARNING
+ -> 1. Labeled data 
+ -> 2. Live data
+
+
+AI 
+-----
+1. RNN 
+2. CNN
+3. ANN 
+4. LSTM
+5. LLM 
+
+Train and Test
+---------------
+-> Training data must me equal or more than testing data 
+Rule: 80/20
+-> 80% Train/ 20% Test 
+-> 70/30 , 60/40, 50/50 
+
+
+Metrics
+---------
+To check how well our machine learning model performed. 
+
+1. Regression 
+    -> RMSE (Root Mean Squared Error) Loss Function 
+    -> MAE (Mean Absolute Error)
+    -> R2 Score -> Regression Accuracy 
+      
+    Rule : Regression model performs well when RMSE value is low and R2 Score is high. 
