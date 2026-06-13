@@ -2,6 +2,9 @@ MACHINE LEARNING
 
 1. Supervised 
     a. Regression 
+        i. Decision Tree Regressor
+        ii. Support Vector Classifier
+
     b. Classification
         i. Support Vector Classifier
         ii. XGBoost Classifier
@@ -55,3 +58,34 @@ To check how well our machine learning model performed.
     -> R2 Score -> Regression Accuracy 
       
     Rule : Regression model performs well when RMSE value is low and R2 Score is high. 
+
+2. Classification
+    -> Classification Report (Precision, Recall, F1-Score, Support, Accuracy)
+    -> Confusion Matrix
+3. Clustering
+    -> Silhouette Score    
+
+
+Feature Scaling(Used in numerical Columns)
+------------------------------
+-> Convert numeric data into range format 
+
+1. Standard Scaler -> Used when our data contains outliers
+
+     -> (Xi - mean)/sd
+2. Min Max Scaler -> Used when our data does not contains outliers
+    -> (Xi - min_val)/(max_val - min_val)
+
+
+
+Label Encoding(Used in Categorical Columns)
+-------------------
+ -> Convert Alphanumeric data into numeric data 
+
+
+1. Label Encoder -> Used for data which can be compared
+2. One-Hot Encoder-> Used for data which can not  be compared
+--------------------
+3. Feature Encoder
+4. Encryption Encoder
+
