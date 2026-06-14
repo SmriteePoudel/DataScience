@@ -1,0 +1,39 @@
+Linear Regression
+---------------------
+to predict continuous data.
+
+straight line -> y=mx+C
+    where, y = prediction data
+    m= slope/ coeff(b1) 
+     Formula: 
+        m= covariance(x,y) / variance(x) func -> coef_
+    x= actual data
+    c= intercept (b0) -> Constant func -> intercept_
+
+1. Simple linear Regression
+    -> one feature and one target 
+    -> y = b0 +b1.x1
+
+2. Multiple linear Regression
+    -> multiple feature and one target
+
+      -> y = b0 +b1.x1+b2.x2+.....+bn.xn
+      -> price = b0 +ageSlope.actualage + postSlope.actualPost +....
+
+
+Metrics
+----------
+
+Residual Error == Loss Function
+
+MAE-> Mean Absolute Error
+    -> Sum of all distance of datapoints with best fit line / total number of data
+  
+MSE->Mean Squared Error
+    -> square of each distance & sum of square of each distance / total number of data
+RMSE -> Root Mean Squared Error
+    -> Squared Root of MSE
+R2 -> Accuracy
+
+Rule: Regression model performs well when RMSE value is low and R2 score is high 
+
