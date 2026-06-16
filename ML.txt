@@ -36,4 +36,59 @@ RMSE -> Root Mean Squared Error
 R2 -> Accuracy
 
 Rule: Regression model performs well when RMSE value is low and R2 score is high 
+----------------------------
+
+Logistic Regression
+----------------------------
+
+
+'''
+-> Used for classification
+    -> Binary Classification 
+-> Sigmoid Function
+-> Formula:
+    Y=mx+C
+    y= b0+b1.x1+b2.x2+......+bn.xn
+-> stratify = Target 
+
+Log-Reg --> Parameters
+-----------------------
+-> Solver -> liblinear, lbfgs(default) , saga
+     Liblinear -> If our dataset is small sized (10 lakhs)
+     lbfgs -> if our data is large or medium sized (10 lakhs +)
+     saga -> if our data is large sized(>20 lakhs)
+
+
+->class_weight -> None(default), Balanced
+
+
+->random _state -> 42
+----------------------------
+Metrics
+------------------------------
+1. Classification Report
+
+
+
+2. Confusion Metrics    
+    -> True Positive, False Positive , False Negative, False Positive
+
+-------------------
+Precision
+--------------
+
+Recall
+--------------------
+
+Accuracy
+--------------------
+
+f1 score 
+---------------
+
+support 
+----------
+-> Total no of healthy and unhealthy data 
+
+
 
