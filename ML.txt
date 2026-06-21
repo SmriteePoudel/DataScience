@@ -63,7 +63,7 @@ Log-Reg --> Parameters
 
 
 ->random _state -> 42
-----------------------------
+--------------------------
 Metrics
 ------------------------------
 1. Classification Report
