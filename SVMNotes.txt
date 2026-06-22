@@ -1,0 +1,21 @@
+SVM(Support Vector Machine)
+-------------------------------
+- Support Vector Classifier
+- Support Vector Regression 
+
+Kernel
+----------
+1. linear
+2. RBF-> Radial Basis Function 
+3. polynomial 
+    a. Gamma -> scale (optimal) 0.1, 0.01, 0.001, 1, 10
+    -> Create optimal line
+    b. C -> 0.1, 0.01, 0.001 ,1 (optimal),10 
+    -> minimize mistakes
+    
+Figure 
+---------
+Data Points 
+Hyperplane 
+margin 
+support vectors 
