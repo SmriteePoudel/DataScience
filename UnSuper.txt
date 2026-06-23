@@ -13,7 +13,7 @@ Clustering
 - K-Means
 -----------------
 knn -> k range(1,21)
-
+Silhouette Score(Accuracy of Cluster)
 
 
 
@@ -27,3 +27,4 @@ c1 + c2+c3+c4+.......+c20/20
 
 error_ratw.append(np.sqrt(Y_test != Y_pred))
 error_rate.append(pred.inertia_)
+elbow figure
