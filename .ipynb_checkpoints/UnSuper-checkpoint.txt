@@ -1,0 +1,30 @@
+Unsupervised Learning
+-----------------------
+ 
+Clustering 
+----------------
+    1. K-Means Clustering
+    2.PCA (Principle Component Analysis)
+
+-Feature
+    train_test -> X
+    Scaling -> X
+
+- K-Means
+-----------------
+knn -> k range(1,21)
+Silhouette Score(Accuracy of Cluster)
+
+
+
+sum of all distance from centroid point -> c1
+sum of all distance from centroid point -> c2
+
+Formula of inertia
+c1+c2/2
+
+c1 + c2+c3+c4+.......+c20/20
+
+error_ratw.append(np.sqrt(Y_test != Y_pred))
+error_rate.append(pred.inertia_)
+elbow figure
